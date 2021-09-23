@@ -1,0 +1,23 @@
+body{
+  background-color: #f6f4d2;
+  font-family:"Georgia", serif, monospace;
+}
+
+h1{
+  font-size: 200%;
+  text-align: center;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #cee5f2;
+  padding: 50px;
+  margin: 20px;
+}
+
+h4{
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:#F67280;

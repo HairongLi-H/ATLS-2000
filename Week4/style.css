@@ -1,0 +1,48 @@
+
+body{
+  background-color: #FFFFFF;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1{
+  font-size: 200%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  outline: #accbe1 solid 10px;
+  background-color: #cee5f2
+}
+
+#first{
+  background-color: #edeec9;
+}
+
+#second{
+  background-color: #dde7c7;
+}
+
+#third{
+  background-color: #bfd8bd;
+}
+
+#fourth{
+  border-style: dotted;
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+}
+
+#intro {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #cee5f2;
+}
+
+a:link{
+  color: #CB6D51;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:#F67280;
