@@ -15,7 +15,7 @@ h1{
 
 .buttons{
   padding: 80px;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
 
