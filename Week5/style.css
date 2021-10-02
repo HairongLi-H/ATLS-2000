@@ -5,44 +5,43 @@ body{
 }
 
 h1{
-  font-size: 200%;
+  font-size: 400%;
+  color: #01093F;
   margin: auto;
   padding: 20px;
   text-align: center;
-  outline: #accbe1 solid 10px;
-  background-color: #cee5f2
+  background-color: #A5A7B1
 }
 
-#first{
-  background-color: #00000;
+.buttons{
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-#second{
-  background-color: #dde7c7;
+button{
+  background-color: #FF6059;
+  border:none;
+  color: white;
+  border-radius: 12px;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  display: block;
+  box-shadow: 5px 5px 5px #dcdada;
+  font-size: 20px;
+  font-family: 'Alegreya',serif;
 }
 
-#third{
-  background-color: #bfd8bd;
+button:visited{
+  background-color: #Fec8be;
+}
+button:hover{
+  background-color: #FF2500;
 }
 
-#fourth{
-  border-style: dotted;
-  border-left: 6px solid red;
-  background-color: lightgrey;
+hr{
+  width: 50%;
 }
-}
-
-#intro {
-  width: 300px;
-  padding: 25px;
-  box-sizing: border-box;
-  background-color: #cee5f2;
-}
-
-a:link{
-  color: #CB6D51;
-}
-
-a:hover {
-  text-decoration: underline;
-  color:#F67280;
