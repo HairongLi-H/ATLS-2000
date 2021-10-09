@@ -1,0 +1,46 @@
+#time{
+  text-align: center;
+  font-size: 200%;
+  color: salmon;
+}
+
+h1{
+  font-size: 400%;
+  color: #01093F;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #A5A7B1
+}
+
+#pumpkin{
+  width:100vw;
+  height: 60vh;
+}
+
+#pumpkin Img{
+  width:30vw;
+  position:relative;
+  margin-left: 35vw;
+}
+button{
+  background-color: #FF6059;
+  border:none;
+  color: white;
+  border-radius: 12px;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  display: flex;
+  box-shadow: 5px 5px 5px #dcdada;
+  font-size: 20px;
+  font-family: 'Alegreya',serif;
+  align-items: center;
+}
+
+button:visited{
+  background-color: #Fec8be;
+}
+button:hover{
+  background-color: #FF2500;
+}

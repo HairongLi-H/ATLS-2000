@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="pumpkin">
+    <h1 id="text">Welcome!</h1>
+    <img alt="pumpkin" src="pumpkin.png" id="pumpkinImg">
+  </section>
+
+  <section>
+  <h1 id="time">Click the button to know your time!</h1>
+  <button id="button">Click me to see time</button>
+  <button id="b2">I am a alert</button>
+  </section>
+
+<script>
+  document.getElementById('button').addEventListener("click", buttonOne)
+  document.getElementById("b2").addEventListener("click", buttonTwo)
+  document.getElementById("pumpkin").addEventListener("click",pumpkinClicked)
+
+  function buttonOne(){
+    document.getElementById('time').innerHTML=Date();
+    document.getElementById('time').style.color="blue";
+  }
+
+  function buttonTwo(){
+    alert("Hello World!");
+    }
+
+  function pumpkinClicked(){
+    document.getElementById("text").innerHTML="Happy Halloween!";
+  }
+</script>
+
+</body>
+</html>
