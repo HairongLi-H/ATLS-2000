@@ -1,0 +1,47 @@
+body {
+  background-image: url('sb.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#newquote{
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    padding: 4vh 8vw;
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: black;
+  color: #e8eaed;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+button:hover{
+  border: #fff solid 3px;
+}
+
+h1{
+  background-color: white;
+  opacity: 90%;
+  margin-top: 10%;
+  padding: 8vh 10vw 10vh 10vw;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: #e8eaed;
+}
+
+#text{
+  color: black;
+}
