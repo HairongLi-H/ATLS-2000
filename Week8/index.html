@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Self Care Menu</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section id="title">
+  <h1 id="header">Self Care Menu</h1>
+<section>
+
+<section id="menu">
+  <p>Monday</p>
+  <ul id="list">
+    <li>Write out a bucket list.</li>
+    <li>Sit outside and breathe fresh air.</li>
+    <li>Watch a short and inspiring TED talk</li>
+  </ul>
+</section>
+
+<section id="border">
+</section>
+
+<section id="quotesection">
+  <h1 id="text">Get your quote for the day</h1>
+<button id="newquote">New Quote</button>
+</section>
+
+<script>
+  const quotes = ["Wake me up when I care.-Squidward.","I'm ugly and I'm proud!-SpongeBob.","Knowledge cannot replace friendship.-Patrick Star.","You’ll never get what you want if you always let people step on you.-Plankton.","A five letter word for happiness…money.-Mr. Krabs.","With imagination, you can be anything you want.-Spongebob.","Fortunately, I have enough talent for all of you.-Squidward."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click",buttonClicked);
+  function buttonClicked(){
+
+    console.log(quotes[quotecount]);
+    document.getElementById("text").innerHTML = quotes[quotecount];
+    if(quotecount>5){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+  }
+
+</script>
+</body>

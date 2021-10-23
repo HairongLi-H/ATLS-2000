@@ -1,0 +1,54 @@
+body {
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#title{
+  background-color: #EFD3C8;
+  width: 100%;
+  height: 200px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#header{
+  font-family: 'Italianno', cursive;
+  font-size: 96pt;
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#menu{
+  width:700px;
+  height: 400px;
+  margin-left: 30%;
+  background-color: #F3EAE1;
+  opacity: 65%;
+  border-color: #FEC5BB;
+  border-style: dashed;
+  font-family: 'Italianno',cursive;
+  font-size: 36pt;
+  text-align: center;
+}
+
+#quotesection{
+  width:1500px;
+  height:100px;
+  margin-left: 10%;
+  background-color: #DCDEDB;
+  font-family: 'Italianno',cursive;
+  font-size: 36pt;
+  text-align: center;
+}
+
+button{
+  border-radius: 8px;
+  border-color: #DCDEDB;
+  background-color: #DCDEDB;
+  font-family: 'Italianno',cursive;
+  font-size: 24pt;
+  text-align: center;
+}
