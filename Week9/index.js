@@ -14,7 +14,6 @@ function buttonClicked1(){
 }
 
 const weekdate = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-// const dayIDArr = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 let weekcount = 0;
 let weekcountreverse = -1;
 document.getElementById("next").addEventListener("click",buttonClicked2);
@@ -29,8 +28,6 @@ function buttonClicked2(){
 }
 
   document.getElementById("week").innerHTML = weekdate[weekcount];
-  // document.documentGetElementById(dayIDArr[weekcount]).style.display = block
-  // document.documentGetElementById(dayIDArr[weekcount+1]).style.display = none
 }
 function buttonClicked3(){
   if(weekcount<=6){
@@ -40,34 +37,30 @@ function buttonClicked3(){
     weekcount=6;
   }
   document.getElementById("week").innerHTML = weekdate[weekcount];
-  // document.documentGetElementById(dayIDArr[weekcount]).style.display = block
-  // document.documentGetElementById(dayIDArr[weekcount-1]).style.display = none
 }
-/* Setting the default slide start index: */
+
 document.getElementById("previous").addEventListener("click",previousSlide);
 document.getElementById("next").addEventListener("click",nextSlide);
 let slideIndex = 1;
-/* We call the function that is implemented below: */
+
 showSlides(slideIndex);
-/* Increase the index by 1 - show the next slide: */
+
 function nextSlide() {
     showSlides(slideIndex += 1);
 }
-/* Decrease the index by 1 - show the previous slide: */
+
 function previousSlide() {
     showSlides(slideIndex -= 1);
 }
-/* Set the current slide: */
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-/* Flip function: */
+
 function showSlides(n) {
     let i;
-    /* We refer to the elements with the class name "item", that is, to the pictures: */
     let slides = document.getElementsByClassName("weekmenu");
 
-    /* Checking the number of slides: */
     if (n > slides.length) {
       slideIndex = 1
     }
@@ -75,7 +68,6 @@ function showSlides(n) {
         slideIndex = slides.length
     }
 
-    /* Loop through each slide in a for loop: */
     for (let slide of slides) {
         slide.style.display = "none";
     }
