@@ -1,0 +1,60 @@
+@media screen and (min-width:900px){
+
+  h1{
+    font-size: 80px;
+  }
+
+  #gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+    "header two"
+    "header three"
+    "four four";
+  }
+}
+@media screen and (max-width:901px){
+  h1{
+    font-size: 40px;
+  }
+
+  #gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "two"
+    "three"
+    "four";
+}
+}
+body{
+  margin: auto 20vw auto 20vw;
+}
+
+h1{
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Italianno', cursive;
+}
+
+.gallerypic{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+#pic1{
+  grid-area: header;
+}
+
+#pic2{
+  grid-area: two;
+}
+#pic3{
+  grid-area: three;
+}
+#pic4{
+  grid-area: four;
+}
