@@ -1,0 +1,104 @@
+#homepage{
+  background-color: #000;
+}
+#level{
+  display: flex;
+}
+#hairong{
+  color: #fff;
+  font-family: 'Marvel', sans-serif;
+  font-size: 45px;
+  width: 100%;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+nav{
+  display:flex;
+  width: 100%;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 5% auto 5% 5%;
+}
+nav a{
+  color: #fff;
+  font-family: 'Marvel', sans-serif;
+  font-size: 20px;
+  margin: 0 2%;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: underline;
+}
+
+.home img{
+  /* margin-top: 1%; */
+  width: 400px;
+  height:250px;
+  object-fit: cover;
+  border-radius: 0px;
+  opacity: 100%;
+}
+
+h3 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.l{
+  position: absolute;
+  top: 52%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+}
+
+.r{
+  position: absolute;
+  top:52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.a{
+  position: absolute;
+  top: 52%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+}
+
+.home{
+  flex-grow:1;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Marvel', sans-serif;
+}
+#homeimg{
+  margin-top: 80px;
+  display:flex;
+  flex-wrap: wrap;
+}
+#projects h2{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+#projectname{
+  color: #fff;
+  font-family: 'Marvel', sans-serif;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+#projectname a{
+  text-decoration: none;
+  color: #fff;
+}
+#projectname a:hover{
+  text-decoration: underline;
+}
