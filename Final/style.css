@@ -16,6 +16,18 @@
   text-decoration: none;
 }
 
+#level a .hover-img{
+  position:relative;
+}
+
+#level a .hover-img span{
+  position: absolute;
+  display: none;
+}
+
+#level a:hover .hover-img span{
+  display: block;
+}
 nav{
   display:flex;
   width: 100%;
@@ -56,9 +68,15 @@ p{
   font-family: 'Marvel', sans-serif;
   width: 50%;
   position: absolute;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 25%;
-  padding-bottom: 5%
+  padding-bottom: 5%;
+}
+#description h1{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Marvel',cursive;
+  margin-left: 25%;
 }
 .l{
   position: absolute;
@@ -121,6 +139,40 @@ p{
   font-size: 25px;
 }
 
+#projectimg img{
+  width: 80%;
+  margin-left: 10%
+}
+
+#myBtn {
+  font-family: 'Marvel', cursive;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#aboutimg img{
+  height: 350px;
+  margin-left: 40%;
+}
+
+#abouttext{
+  text-align: center;
+}
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
