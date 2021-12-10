@@ -1,3 +1,95 @@
+
+@media screen and (min-width:800px){
+  #homeimg{
+    margin-top: 80px;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  #l{
+    position: absolute;
+    top: 52%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+  }
+
+  #r{
+    position: absolute;
+    top:52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #a{
+    position: absolute;
+    top: 52%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+  }
+  #gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    "header two"
+    "header three"
+    "four four";
+  }
+}
+
+@media screen and (max-width:799px){
+  #homeimg{
+    margin-top: 80px;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  #l{
+    top: 52%;
+    left: 50%;
+  }
+
+  #r{
+    top:70%;
+    left: 50%;
+  }
+
+  #a{
+    top: 90%;
+    left: 83%;
+  }
+  #gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "two"
+    "three"
+    "four";
+  }
+}
+
+.gallerypic{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+#renderimg{
+  margin: 5vw 20vw 10vw 20vw;
+}
+#pic1{
+  grid-area: header;
+}
+
+#pic2{
+  grid-area: two;
+}
+#pic3{
+  grid-area: three;
+}
+#pic4{
+  grid-area: four;
+}
+#pic5{
+  object-position: 70% 100%;
+}
 #homepage{
   background-color: #000;
 }
@@ -78,26 +170,7 @@ p{
   font-family: 'Marvel',cursive;
   margin-left: 25%;
 }
-.l{
-  position: absolute;
-  top: 52%;
-  left: 17%;
-  transform: translate(-50%, -50%);
-}
 
-.r{
-  position: absolute;
-  top:52%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.a{
-  position: absolute;
-  top: 52%;
-  left: 83%;
-  transform: translate(-50%, -50%);
-}
 
 .home{
   flex-grow:1;
@@ -106,11 +179,7 @@ p{
   color: #fff;
   font-family: 'Marvel', sans-serif;
 }
-#homeimg{
-  margin-top: 80px;
-  display:flex;
-  flex-wrap: wrap;
-}
+
 #projects h2{
   margin-left: 50px;
   margin-top: 100px;
